@@ -1,0 +1,42 @@
+# ==========================================
+#  OBLIGATORIO
+# ==========================================
+# Token que te da @BotFather en Telegram
+TELEGRAM_BOT_TOKEN=1234567890:AAHxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# ==========================================
+#  OPCIONAL — el bot arranca sin estas claves,
+#  pero los comandos asociados quedan desactivados
+# ==========================================
+# [platform.openai.com](https://platform.openai.com/api-keys)  -> /ai, /imagen, /traducir
+OPENAI_API_KEY=sk-proj-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+OPENAI_MODEL=gpt-4o-mini
+OPENAI_IMAGE_MODEL=dall-e-3
+
+# [weatherapi.com](https://www.weatherapi.com/) (plan gratuito)  -> /clima
+WEATHER_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxx
+
+# ==========================================
+#  COMPORTAMIENTO
+# ==========================================
+BOT_NAME=Kaory Bot
+BOT_VERSION=1.0.0
+
+# true = responde "Escribiste: ..." al texto sin comando (sólo en chats privados)
+ECHO_ENABLED=false
+
+# Retraso del comando /notificar, en milisegundos
+REMINDER_DELAY_MS=10000
+
+# Límite de subida de archivos en MB (Telegram permite 50 MB a los bots)
+MAX_FILE_SIZE_MB=48
+
+# Duración máxima permitida de vídeos de YouTube, en segundos
+MAX_VIDEO_SECONDS=900
+
+# ==========================================
+#  DEPURACIÓN
+# ==========================================
+LOG_LEVEL=info
+LOG_JSON=false
+SHOW_QR=false
