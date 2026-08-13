@@ -5,11 +5,10 @@
  */
 import qrcode from 'qrcode-terminal';
 
-import { config, validarConfig } from './src/config.js';
-import { crearBot } from './src/bot.js';
-import { cargarComandos, comandosUnicos } from './src/loader.js';
-import { registrarManejadores } from './src/handlers.js';
-import { logger } from './utils/logger.js';
+import { config, validarConfig } from './config.js';
+import { crearBot } from './bot.js';
+import { cargarComandos, comandosUnicos } from './loader.js';
+import { registrarManejadores } from './handlers.js';
 
 // Estado global compartido con todos los comandos (uptime, comandos cargados, etc.)
 const estado = {
