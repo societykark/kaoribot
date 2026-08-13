@@ -2,19 +2,19 @@
 #  OBLIGATORIO
 # ==========================================
 # Token que te da @BotFather en Telegram
-TELEGRAM_BOT_TOKEN=1234567890:AAHxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+TELEGRAM_BOT_TOKEN=8774254431:AAFLHThiOjWr_Lldt3BcdfrCqsQmwOCh4XE
 
 # ==========================================
 #  OPCIONAL — el bot arranca sin estas claves,
 #  pero los comandos asociados quedan desactivados
 # ==========================================
 # [platform.openai.com](https://platform.openai.com/api-keys)  -> /ai, /imagen, /traducir
-OPENAI_API_KEY=sk-proj-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+OPENAI_API_KEY=sk-proj-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
 OPENAI_MODEL=gpt-4o-mini
 OPENAI_IMAGE_MODEL=dall-e-3
 
 # [weatherapi.com](https://www.weatherapi.com/) (plan gratuito)  -> /clima
-WEATHER_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxx
+WEATHER_API_KEY=5a0ba9af1830c42510a36b3b58838cff
 
 # ==========================================
 #  COMPORTAMIENTO
